@@ -14,7 +14,8 @@ Objetive: Understand ML project Lifecycle, ML Ecosystem and Technologies, and Cl
 ## 5.Metrics results
 * Offline assesment
 * Online assesment
-## 6.Conclusions
 ## 7.ML Technologies
 * `scikit-learn`: librería algoritmos ML
 * `pandas`: libreria análisis y manipulación de datos
+## 6.Conclusions
+
