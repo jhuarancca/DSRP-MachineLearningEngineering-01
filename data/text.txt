@@ -1,0 +1,9 @@
+
+
+Juan de Dios !
+J
+!qa
+uan de Dios was here
+/bin/bash: line 1: q: command not found
+!wq
+
