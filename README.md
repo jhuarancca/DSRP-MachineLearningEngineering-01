@@ -68,7 +68,7 @@ El conjunto de datos de Ames Housing fue compilado por Dean De Cock para su uso 
 <br>
 
 ## 4.Model Card 
-* https://www.kaggle.com/code/var0101/model-cards
+* <a href="https://www.example.com">ML Model Card</a>
 <br>
 <br>
 
