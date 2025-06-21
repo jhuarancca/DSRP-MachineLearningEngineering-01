@@ -51,7 +51,7 @@
 
 **📊 4. Métricas del Modelo**
 <br>
-<br>
+
 <ul>
   <li>RMSE (Raíz del Error Cuadrático Medio): $53,130.76</li>
   <li>R² (Coeficiente de determinación): 0.606 </li>
@@ -60,7 +60,7 @@
 ![image](https://github.com/user-attachments/assets/198a2d7c-529e-4f14-8e4a-d640ba4f6d42)
 
 <br>
-<br>
+
 
 **📁 5. Datos de Entrenamiento**
 <br>
@@ -72,27 +72,28 @@
 </ul>
 
 ![image](https://github.com/user-attachments/assets/ac953ffc-5b88-4d31-bb95-6c781d8739de)
+<br>
 
 **🧪 6. Datos de Evaluación**
 <br>
-<br>
+
 <ul>
   <li>Proporción de entrenamiento/prueba: 80% / 20%</li>
   <li>Variables: 6 atributos de propiedades </li>
   <li>Preprocesamiento: data cleaning, normalización </li>
 </ul>
+<br>
 
 **⚠️ 7. Consideraciones Éticas**
-<br>
 <br>
 <ul>
   <li>El modelo puede reflejar sesgos sociales o estructurales históricos (por ejemplo, desigualdades por zonas geográficas o acceso a servicios)</li>
   <li>Riesgo de sobrevaloración o subvaloración en zonas con poca representación en los datos de entrenamiento.</li>
   <li>No debe ser usado como única fuente para decisiones financieras o legales sin revisión profesional adicional. </li>
 </ul>
+<br>
 
 **🚨 8. Advertencias y Recomendaciones**
-<br>
 <br>
 <ul>
   <li>No utilizar el modelo fuera del contexto inmobiliario residencial de EE.UU.</li>
@@ -100,9 +101,9 @@
   <li>Revisar las predicciones en zonas rurales o poco urbanizadas donde el modelo tiene menor precisión. </li>
   <li>Actualizar el modelo con datos recientes cada 6–12 meses para evitar obsolescencia. </li>
 </ul>
+<br>
 
 **📈 9. Análisis Cuantitativo (Comparativo Predicción versus real)**
-<br>
 <br>
 ![image](https://github.com/user-attachments/assets/2793762b-c056-4808-ab7a-8362264ca1b8)
 
