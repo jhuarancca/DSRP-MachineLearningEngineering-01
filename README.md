@@ -68,7 +68,7 @@ El conjunto de datos de Ames Housing fue compilado por Dean De Cock para su uso 
 <br>
 
 ## 4.Model Card 
-* <a href="https://www.example.com">ML Model Card</a>
+* <a href="https://github.com/jhuarancca/DSRP-MachineLearningEngineering-01/blob/main/ModelCard.md">ML Model Card</a>
 <br>
 <br>
 
