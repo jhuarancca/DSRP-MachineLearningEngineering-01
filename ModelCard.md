@@ -16,6 +16,7 @@
 **📌 2. Casos de Uso**
 <br>
 <br>
+
 **✔️ Casos de uso recomendados:**
 <ul>
   <li>Valoración automática de inmuebles residenciales</li>
@@ -35,72 +36,78 @@
 <br>
 <br>
 
+**⚖️ 3. Factores**
+<br>
+<br>
+<ul>
+  <li>Estructurales: tamaño en metros cuadrados, area de garage, año de construcción</li>
+  <li>Condiciones del mercado: Mes y año vendido</li>
+</ul>
+<br>
+<br>
+
+![image](https://github.com/user-attachments/assets/dc723869-06b0-454c-9f63-7cb8b5f190aa)
+
+
+**📊 4. Métricas del Modelo**
+<br>
+<br>
+<ul>
+  <li>RMSE (Raíz del Error Cuadrático Medio): $53,130.76</li>
+  <li>R² (Coeficiente de determinación): 0.606 </li>
+</ul>
+
+![image](https://github.com/user-attachments/assets/198a2d7c-529e-4f14-8e4a-d640ba4f6d42)
+
+<br>
+<br>
+
+**📁 5. Datos de Entrenamiento**
+<br>
+<br>
+<ul>
+  <li>Tamaño del dataset: 960 propiedades </li>
+  <li>Variables: 6 atributos de propiedades </li>
+  <li>Preprocesamiento: data cleaning, normalización </li>
+</ul>
+
+![image](https://github.com/user-attachments/assets/ac953ffc-5b88-4d31-bb95-6c781d8739de)
+
+**🧪 6. Datos de Evaluación**
+<br>
+<br>
+<ul>
+  <li>Proporción de entrenamiento/prueba: 80% / 20%</li>
+  <li>Variables: 6 atributos de propiedades </li>
+  <li>Preprocesamiento: data cleaning, normalización </li>
+</ul>
+
+**⚠️ 7. Consideraciones Éticas**
+<br>
+<br>
+<ul>
+  <li>El modelo puede reflejar sesgos sociales o estructurales históricos (por ejemplo, desigualdades por zonas geográficas o acceso a servicios)</li>
+  <li>Riesgo de sobrevaloración o subvaloración en zonas con poca representación en los datos de entrenamiento.</li>
+  <li>No debe ser usado como única fuente para decisiones financieras o legales sin revisión profesional adicional. </li>
+</ul>
+
+**🚨 8. Advertencias y Recomendaciones**
+<br>
+<br>
+<ul>
+  <li>No utilizar el modelo fuera del contexto inmobiliario residencial de EE.UU.</li>
+  <li>Verificar manualmente predicciones fuera del rango promedio de precios (outliers).</li>
+  <li>Revisar las predicciones en zonas rurales o poco urbanizadas donde el modelo tiene menor precisión. </li>
+  <li>Actualizar el modelo con datos recientes cada 6–12 meses para evitar obsolescencia. </li>
+</ul>
+
+**📈 9. Análisis Cuantitativo (Comparativo Predicción versus real)**
+<br>
+<br>
+![image](https://github.com/user-attachments/assets/2793762b-c056-4808-ab7a-8362264ca1b8)
 
 
 
 
 
-⚖️ 3. Factores
-Estructurales: tamaño en pies cuadrados, número de habitaciones y baños, año de construcción
-
-Geográficos: ubicación (código postal), cercanía a escuelas, nivel de criminalidad, accesos
-
-Condiciones del mercado: tendencias de precios en la zona, tasa de interés hipotecaria, tiempo promedio en mercado
-
-📊 4. Métricas del Modelo
-MAE (Error Absoluto Medio): $13,750
-
-RMSE (Raíz del Error Cuadrático Medio): $21,480
-
-R² (Coeficiente de determinación): 0.89
-
-Intervalo de confianza del 95% para predicción: ± $18,000
-
-📁 5. Datos de Entrenamiento
-Tamaño del conjunto: 1,460 propiedades (Ames Housing Dataset + extensiones propias)
-
-Rango temporal: 2006–2010
-
-Ubicación: Ames, Iowa (y simulaciones para otras regiones similares)
-
-Variables: 79 atributos de propiedades (estructurales, geográficos, servicios, etc.)
-
-Preprocesamiento: imputación de valores nulos, codificación de variables categóricas, normalización
-
-🧪 6. Datos de Evaluación
-Proporción de entrenamiento/prueba: 80% / 20%
-
-Datos externos utilizados para validación cruzada: Muestras de propiedades de Zillow y Redfin (solo para validación, no entrenamiento)
-
-Distribución geográfica del set de prueba: variada por código postal para evitar sesgo espacial
-
-⚠️ 7. Consideraciones Éticas
-El modelo puede reflejar sesgos sociales o estructurales históricos (por ejemplo, desigualdades por zonas geográficas o acceso a servicios).
-
-Riesgo de sobrevaloración o subvaloración en zonas con poca representación en los datos de entrenamiento.
-
-No debe ser usado como única fuente para decisiones financieras o legales sin revisión profesional adicional.
-
-🚨 8. Advertencias y Recomendaciones
-No utilizar el modelo fuera del contexto inmobiliario residencial de EE.UU.
-
-Verificar manualmente predicciones fuera del rango promedio de precios (outliers).
-
-Revisar las predicciones en zonas rurales o poco urbanizadas donde el modelo tiene menor precisión.
-
-Actualizar el modelo con datos recientes cada 6–12 meses para evitar obsolescencia.
-
-📈 9. Análisis Cuantitativo
-Métrica	Valor
-MAE	$13,750
-RMSE	$21,480
-R² global	0.89
-R² para propiedades > $500K	0.82
-% predicciones con error < 10%	84%
-
-El modelo tiene mejor desempeño en zonas suburbanas de ingresos medios.
-
-Las zonas urbanas densas muestran mayor varianza, con mayores errores relativos.
-
-Las propiedades de lujo (>$750K) presentan menor precisión por menor representación en los datos.
 
