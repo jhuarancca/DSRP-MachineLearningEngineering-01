@@ -62,8 +62,7 @@ El conjunto de datos de Ames Housing fue compilado por Dean De Cock para su uso 
 **Fuente de datos**
 <br>
 <br>
-<li>House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview</li> 
-
+<li> <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview">House Prices - Advanced Regression Techniques</a></li>
 <br>
 <br>
 
@@ -73,8 +72,19 @@ El conjunto de datos de Ames Housing fue compilado por Dean De Cock para su uso 
 <br>
 
 ## 5.Resultados (métricas)
-* Offline assesment
-* Online assesment
+
+**Offline assesment**
+
+<ul>
+<li>Incremento el 5% de la eficiencia en la tasación de inmuebles</li>
+<li>Reducción de tiempo en el ciclo de ventas a 3 semanas en promedio</li>
+</ul>
+
+**Online assesment**
+
+ ![image](https://github.com/user-attachments/assets/7871e5fa-3fc6-4dd1-8e51-e6cda4786535)
+
+
 <br>
 <br>
 
@@ -90,21 +100,22 @@ El conjunto de datos de Ames Housing fue compilado por Dean De Cock para su uso 
 <br>
 
 ## 6.Conclusiones
-  <li>.....</li>
-  <li>.....</li> 
-  <li>.....</li> 
-  <li>.....</li>
-  <li>......</li> 
+<br>
+<ul>
+  <li>No utilizar el modelo fuera del contexto inmobiliario residencial de EE.UU.</li>
+  <li>Verificar manualmente predicciones fuera del rango promedio de precios (outliers).</li> 
+  <li>Revisar las predicciones en zonas rurales o poco urbanizadas donde el modelo tiene menor precisión.</li> 
+  <li>Actualizar el modelo con datos recientes cada 6–12 meses para evitar obsolescencia.</li>
+</ul>
 
 ## 9.Bibliografía
 <br>
 <ul>
-  <li>Flujo de Trabajo de Machine Learning https://medium.com/inside-intelligence/flujo-completo-de-machine-learning-95a1c8219296</li>
-  <li>Complete Machine Learning Project Flowchart Explained https://ihsanulpro.medium.com/complete-machine-learning-project-flowchart-explained-0f55e52b9381.</li> 
-  <li>Guía de CRISP-DM de IBM SPSS Modeler https://www.ibm.com/docs/es/SS3RA7_18.4.0/pdf/ModelerCRISPDM.pdf</li> 
-  <li>MyMLOPs https://mllops.vercel.app/ </li>
-  <li>House Prices - Advanced Regression Techniques https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview</li> 
-
+  <li> <a href="https://medium.com/inside-intelligence/flujo-completo-de-machine-learning-95a1c8219296">Flujo de Trabajo de Machine Learning</a></li>
+    <li> <a href="https://ihsanulpro.medium.com/complete-machine-learning-project-flowchart-explained-0f55e52b9381">Complete Machine Learning Project Flowchart Explained</a></li>
+    <li> <a href="https://www.ibm.com/docs/es/SS3RA7_18.4.0/pdf/ModelerCRISPDM.pdf">Guía de CRISP-DM de IBM SPSS Modeler</a></li>
+    <li> <a href="https://mllops.vercel.app/">MyMLOPs</a></li>
+  <li> <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview">House Prices - Advanced Regression Techniques</a></li>
 </ul>
 
 
